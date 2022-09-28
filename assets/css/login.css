@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background: url(../images/login_bg.jpg) no-repeat;
+  background-size: cover;
+}
+.loginbox {
+  width: 400px;
+  height: 310px;
+  background-color: #fff;
+  margin: 190px auto;
+}
+.titlebox {
+  height: 50px;
+  background: url("../images/login_title.png") no-repeat center;
+}
+/* 登录窗口 */
+.login .login_form input {
+  margin: 10px 30px;
+  padding-left: 40px;
+  display: block;
+  width: 300px;
+  height: 40px;
+ 
+}
+.login .login_form button {
+  background-color: rgb(4, 176, 245);
+  width: 347px;
+  height: 40px;
+ margin-left: 30px;
+ margin-top: 5px;
+  border: none;
+}
+.login .login_form button:hover {
+    cursor: pointer;
+}
+.login .username {
+  position: relative;
+  top: 43px;
+  left: 40px;
+  font-size: 20px;
+}
+.login .pwd {
+    position: relative;
+  top: 96px;
+  left: 15px;
+  font-size: 20px;
+}
+.login a {
+    float: right;
+    margin: 10px 25px;
+}
+/* 注册窗口 */
+
+.register .register_form{
+    margin-top: -20px;    
+
+}
+.register .register_form input {
+  margin: 10px 30px;
+  padding-left: 40px;
+  display: block;
+  width: 300px;
+  height: 37px;
+ 
+}
+.register .register_form button {
+  background-color: rgb(4, 176, 245);
+  width: 347px;
+  height: 40px;
+ margin-left: 30px;
+ margin-top: 5px;
+  border: none;
+}
+.register .register_form button:hover {
+    cursor: pointer;
+}
+.register .username {
+  position: relative;
+  top: 22px;
+  left: 40px;
+  font-size: 20px;
+}
+.register .pwd {
+    position: relative;
+  top: 72px;
+  left: 17px;
+  font-size: 20px;
+}
+.register .agin_pwd {
+        position: relative;
+  top: 122px;
+  left: -6px;
+  font-size: 20px;
+}
+.register a {
+    float: right;
+    margin: 10px 25px;
+}
